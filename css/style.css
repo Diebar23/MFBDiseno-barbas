@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+ /* nombre de la marca */ 
+ .marca{
+    color: #7A3B69;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+#seccion-marca{
+    background-color: #5BC0EB;
+    padding: 40px;
+}
+    /* menu */
+a.menu{
+    display: flex;
+    float: center;
+    flex-direction: row;
+    text-decoration: none;   
+    color: #7A3B69;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+    
+a.menu:hover {
+    font-size: 30px;
+    
+}
+ul{
+    list-style-type: none;
+}
+    /* disposicion de la pagina */
+
+.container{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "contenido contenido contenido"
+    "footer footer footer"
+    ;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+header{
+    grid-area: header;
+    background-color: #5BC0EB;
+}
+.contenido{
+    grid-area: contenido;
+    justify-content: center;
+    padding: auto;
+    
+}
+.h1{
+    grid-area: h1;
+    display: grid;
+    justify-content: left;
+    color: #7A3B69;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.frase{
+    grid-area: frase;
+    display: grid;
+    justify-content: center;
+    color: #7A3B69;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+footer{
+    grid-area: footer;
+    display: grid;
+    justify-content: center;
+    background-image: linear-gradient(to top, darksalmon, white);
+    padding: 20px;
+}
+    /* MEDIA QUERIES - MOBILE A TABLET */
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+
+       /* nombre de la marca */ 
+.marca{
+    color: #7A3B69;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+} 
+#seccion-marca{
+    background-color: #5BC0EB;
+    padding: 40px;
+
+}
+    /* menu */
+a.menu{
+    display: flex;
+    float: right;
+    margin: 0 15px 0 0;
+    flex-direction: row;
+    text-decoration: none;   
+}
+ul{
+    list-style-type: none;
+}
+    /* disposicion de la pagina */
+.container{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "contenido contenido contenido"
+    "footer footer footer"
+    ;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+   
+}
+
+    /* imagenes pagina index*/
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 40px;
+}
+
+    /* frase pagina index */
+
+.frase{
+    display: inline;
+    color: #7A3B69;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+    /* pagina de diseños - imagenes */
+
+.h1{
+    color: #7A3B69;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 40px;
+
+}
+
+    /* Pagina de contacto */
+
+.datos{
+    display: flex;
+    color: #7A3B69;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+    /* footer */
+.pie{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+}
+    /* MEDIA QUERIES - TABLET A DSKT */
+
+@media (min-width: 1024px){
+    
+
+    /* nombre de la marca */ 
+
+.marca{
+    color: #7A3B69;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+} 
+#seccion-marca{
+    background-color: #5BC0EB;
+    padding: 40px;
+
+}
+    /* menu */
+
+a.menu{
+    display: flex;
+    float: right;
+    margin: 0 15px 0 0;
+    flex-direction: row;
+    text-decoration: none;   
+}
+ul{
+    list-style-type: none;
+}
+   /* disposicion de la pagina */
+.container{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "contenido contenido contenido"
+    "footer footer footer"
+    ;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+    /* imagenes pagina index*/
+
+.contenido{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+
+}
+
+    /* frase pagina index */
+
+p.frase{
+    display: inline;
+    color: #7A3B69;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+    /* pagina de diseños - imagenes */
+
+.h1{
+    color: #7A3B69;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+    /* Pagina de contacto */
+
+.datos{
+    display: flex;
+    color: #7A3B69;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+    /* footer */
+    
+.pie{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+}
+
