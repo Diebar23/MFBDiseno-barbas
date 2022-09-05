@@ -26,11 +26,11 @@ a.menu{
     font-weight: bold;
     font-family: sans-serif;
 }
-    
 a.menu:hover {
     font-size: 30px;
-    
-}
+     
+ }   
+
 ul{
     list-style-type: none;
 }
