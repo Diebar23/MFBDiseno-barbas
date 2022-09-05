@@ -16,13 +16,13 @@
     padding: 40px;
 }
     /* menu */
-a.menu{
+a.nav-link{
     display: flex;
     float: center;
     flex-direction: row;
     text-decoration: none;   
     color: #7A3B69;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -36,26 +36,13 @@ ul{
 }
     /* disposicion de la pagina */
 
-.container{
-    display: grid;
-    grid-template-areas:
-    "header header header"
-    "contenido contenido contenido"
-    "footer footer footer"
-    ;
-    grid-template-rows: repeat(3,1fr);
-    grid-template-columns: repeat(3,1fr);
-}
+
 header{
     grid-area: header;
     background-color: #5BC0EB;
 }
-.contenido{
-    grid-area: contenido;
-    justify-content: center;
-    padding: auto;
     
-}
+
 .h1{
     grid-area: h1;
     display: grid;
@@ -113,26 +100,7 @@ ul{
     list-style-type: none;
 }
     /* disposicion de la pagina */
-.container{
-    display: grid;
-    grid-template-areas:
-    "header header header"
-    "contenido contenido contenido"
-    "footer footer footer"
-    ;
-    grid-template-rows: repeat(3,1fr);
-    grid-template-columns: repeat(3,1fr);
-   
-}
 
-    /* imagenes pagina index*/
-
-.contenido{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 40px 40px;
-}
 
     /* frase pagina index */
 
@@ -154,32 +122,13 @@ ul{
     font-family: sans-serif;
     margin-left: 10px;
 }
-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 40px 40px;
+
 
 }
 
     /* Pagina de contacto */
 
-.datos{
-    display: flex;
-    color: #7A3B69;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: sans-serif;
-    margin-left: 10px;
-}
-    /* footer */
-.pie{
-    display: flex;
-    justify-items: center;
-    align-items: center;
 
-}
-}
     /* MEDIA QUERIES - TABLET A DSKT */
 
 @media (min-width: 1024px){
@@ -212,24 +161,10 @@ ul{
     list-style-type: none;
 }
    /* disposicion de la pagina */
-.container{
-    display: grid;
-    grid-template-areas:
-    "header header header"
-    "contenido contenido contenido"
-    "footer footer footer"
-    ;
-    grid-template-rows: repeat(3,1fr);
-    grid-template-columns: repeat(3,1fr);
-    
-}
+
 
     /* imagenes pagina index*/
 
-.contenido{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 20px;
 
 }
 
@@ -252,12 +187,7 @@ p.frase{
     font-weight: bold;
     font-family: sans-serif;
     margin-left: 10px;
-}
-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px 20px;
+
 }
 
     /* Pagina de contacto */
@@ -271,12 +201,5 @@ section{
     margin-left: 10px;
 }
     /* footer */
-    
-.pie{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-
-}
-}
+   
 
