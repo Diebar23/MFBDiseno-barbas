@@ -1,0 +1,33 @@
+header{
+    grid-area: header;
+    background-color: #5BC0EB;
+
+#seccion-marca{
+    background-color: #5BC0EB;
+    padding: 40px;
+}
+.marca{
+    color: #7A3B69;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+a.nav-link{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;   
+    color: #7A3B69;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    &:hover{
+    color: blue;
+     transition: all 0.4s ease;
+    }
+}
+
+ul{
+    list-style-type: none;
+}
+}
