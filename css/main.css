@@ -1,77 +1,88 @@
 @charset "UTF-8";
-body {
-  padding: 0;
-  margin: 0;
-  /* Pagina de contacto */
-  /* Pagina de nosotros */
-  /* página de servicio */ }
-  body header {
-    grid-area: header;
-    background-color: #5BC0EB; }
-    body header #seccion-marca {
-      background-color: #5BC0EB;
-      padding: 40px; }
-    body header .marca {
-      color: #7A3B69;
-      font-size: 30px;
-      font-weight: bold;
-      font-family: sans-serif;
-      text-decoration: none; }
-    body header a.nav-link {
-      display: flex;
-      flex-direction: row;
-      text-decoration: none;
-      color: #7A3B69;
-      font-size: 20px;
-      font-weight: bold;
-      font-family: sans-serif; }
-      body header a.nav-link:hover {
-        color: blue;
-        transition: all 0.4s ease; }
-    body header ul {
-      list-style-type: none; }
-  body footer {
-    grid-area: footer;
-    display: grid;
-    justify-content: center;
-    background-image: linear-gradient(to top, darksalmon, white);
-    padding: 20px; }
-  body .container {
+header {
+  grid-area: header;
+  background-color: #5BC0EB; }
+  header #seccion-marca {
+    background-color: #5BC0EB;
+    padding: 40px; }
+  header .marca {
+    color: #7A3B69;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none; }
+  header a.nav-link {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
     color: #7A3B69;
     font-size: 20px;
     font-weight: bold;
     font-family: sans-serif; }
-  body .h1 {
-    grid-area: h1;
-    display: grid;
-    justify-content: left;
-    color: #7A3B69;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: sans-serif;
-    margin-left: 10px; }
-  body .frase {
-    grid-area: frase;
-    display: grid;
-    justify-content: center;
-    color: #7A3B69;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: sans-serif;
-    margin-left: 10px; }
-  body .nosotros {
-    display: flex;
-    flex-direction: column;
-    color: #7A3B69;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: sans-serif;
-    margin-left: 10px; }
-  body .servicios {
-    display: flex;
-    flex-direction: column;
-    color: #7A3B69;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: sans-serif;
-    margin-left: 10px; }
+    header a.nav-link:hover {
+      color: blue;
+      transition: all 0.4s ease; }
+  header ul {
+    list-style-type: none; }
+
+footer {
+  grid-area: footer;
+  display: grid;
+  justify-content: center;
+  background-image: linear-gradient(to top, darksalmon, white);
+  padding: 20px; }
+
+/* Pagina de contacto */
+.sinmargin {
+  width: 100% !important;
+  padding: 0;
+  margin: 0; }
+
+.h1 {
+  grid-area: h1;
+  display: grid;
+  justify-content: left;
+  color: #7A3B69;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 20px; }
+
+.frase {
+  grid-area: frase;
+  display: grid;
+  justify-content: center;
+  color: #7A3B69;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 20px; }
+
+/* Pagina de nosotros */
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  color: #7A3B69;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 20px; }
+
+/* página de servicio */
+.servicios {
+  display: flex;
+  flex-direction: column;
+  color: #7A3B69;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 20px; }
+
+.text-start {
+  display: flex;
+  flex-direction: column;
+  color: #7A3B69;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 20px; }
