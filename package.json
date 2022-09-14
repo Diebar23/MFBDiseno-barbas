@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "build-css": "none-sass --include-path scss scss/app.scss css/main.css",
+=======
+    "build-css": "node-sass --include-path scss scss/app.scss css/main.css",
+>>>>>>> rama1
     "watch-css": "nodemon -e scss -x \"npm run build-css \""
   },
   "repository": {
