@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 header {
   grid-area: header;
   background-color: #5BC0EB; }
@@ -9,8 +10,11 @@ header {
     color: #7A3B69;
     font-size: 30px;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'roboto';
     text-decoration: none; }
+    header .marca:hover {
+      color: #3066BE;
+      transition: all 0.4s ease; }
   header a.nav-link {
     display: flex;
     flex-direction: row;
@@ -18,9 +22,9 @@ header {
     color: #7A3B69;
     font-size: 20px;
     font-weight: bold;
-    font-family: sans-serif; }
+    font-family: 'roboto'; }
     header a.nav-link:hover {
-      color: blue;
+      color: #3066BE;
       transition: all 0.4s ease; }
   header ul {
     list-style-type: none; }
@@ -29,7 +33,11 @@ footer {
   grid-area: footer;
   display: grid;
   justify-content: center;
-  background-image: linear-gradient(to top, darksalmon, white);
+  color: #7A3B69;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  background-image: linear-gradient(to top, #9ED8DB, white);
   padding: 20px; }
 
 /* Pagina de contacto */
@@ -45,7 +53,7 @@ footer {
   color: #7A3B69;
   font-size: 20px;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'roboto';
   margin-left: 20px; }
 
 .frase {
@@ -55,7 +63,7 @@ footer {
   color: #7A3B69;
   font-size: 25px;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'roboto';
   margin-left: 20px; }
 
 /* Pagina de nosotros */
@@ -65,7 +73,7 @@ footer {
   color: #7A3B69;
   font-size: 20px;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'roboto';
   margin-left: 20px; }
 
 /* página de servicio */
@@ -75,7 +83,7 @@ footer {
   color: #7A3B69;
   font-size: 20px;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'roboto';
   margin-left: 20px; }
 
 .text-start {
@@ -84,5 +92,5 @@ footer {
   color: #7A3B69;
   font-size: 20px;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'roboto';
   margin-left: 20px; }

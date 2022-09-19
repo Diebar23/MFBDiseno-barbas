@@ -2,6 +2,10 @@ footer{
     grid-area: footer;
     display: grid;
     justify-content: center;
-    background-image: linear-gradient(to top, darksalmon, white);
+    color: #7A3B69;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    background-image: linear-gradient(to top, $secondary-colour, white);
     padding: 20px;
 }

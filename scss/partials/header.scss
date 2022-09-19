@@ -1,17 +1,21 @@
 header{
     grid-area: header;
-    background-color: #5BC0EB;
+    background-color: $primary-colour;
 
 #seccion-marca{
-    background-color: #5BC0EB;
+    background-color: $primary-colour;
     padding: 40px;
 }
 .marca{
     color: #7A3B69;
     font-size: 30px;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'roboto';
     text-decoration: none;
+    &:hover{
+        color: $hover-colour;
+     transition: all 0.4s ease;
+    }
 }
 a.nav-link{
     display: flex;
@@ -20,9 +24,9 @@ a.nav-link{
     color: #7A3B69;
     font-size: 20px;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'roboto';
     &:hover{
-    color: blue;
+    color: $hover-colour;
      transition: all 0.4s ease;
     }
 }
