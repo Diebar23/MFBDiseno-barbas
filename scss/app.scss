@@ -4,6 +4,34 @@ $primary-colour: #5BC0EB;
 $secondary-colour: #9ED8DB;
 $hover-colour: #3066BE;
 
+$redes:(
+    instagram:#fff,
+    facebook: #fff,
+    linkedin: #fff,
+);
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color
+    }   
+}
+.btn--instagram {
+    background-color: #fff;
+}
+.btn--facebook {
+    background-color: #fff;
+}   
+.btn--linkedin {
+    background-color: #fff;
+}
+
+@mixin sizes($width,$height) {
+    height: $height;
+    width: $width;  
+}
+.imagen {
+    @include sizes(50px,500px);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap') ;
 
 
