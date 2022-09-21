@@ -19,8 +19,9 @@
   background-color: #fff; }
 
 .carousel {
-  height: 400%;
-  width: 300%;
+  height: auto;
+  width: auto;
+  padding: 80px;
   max-width: 100%; }
 
 header {
@@ -88,11 +89,6 @@ footer {
   font-weight: bold;
   font-family: 'roboto';
   margin-left: 20px; }
-
-.carusel {
-  padding: 80px;
-  height: auto;
-  max-width: 100%; }
 
 /* Pagina de nosotros */
 .nosotros {
