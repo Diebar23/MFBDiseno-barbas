@@ -89,12 +89,8 @@ footer {
   font-family: 'roboto';
   margin-left: 20px; }
 
-<<<<<<< HEAD
-.imagen {
-=======
-.carousel {
+.carusel {
   padding: 80px;
->>>>>>> rama1
   height: auto;
   max-width: 100%; }
 
