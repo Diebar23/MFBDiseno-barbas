@@ -18,9 +18,9 @@
 .btn--linkedin {
   background-color: #fff; }
 
-.imagen {
-  height: 80%;
-  width: 80%;
+.carousel {
+  height: 400%;
+  width: 300%;
   max-width: 100%; }
 
 header {

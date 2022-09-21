@@ -28,8 +28,8 @@ $redes:(
     height: $height;
     width: $width;  
 }
-.imagen {
-    @include sizes (80%, 80%); 
+.carousel {
+    @include sizes (300%, 400%); 
     max-width: 100%;
 }
 
