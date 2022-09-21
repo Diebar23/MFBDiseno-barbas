@@ -19,8 +19,9 @@
   background-color: #fff; }
 
 .imagen {
-  height: 500px;
-  width: 50px; }
+  height: 80%;
+  width: 80%;
+  max-width: 100%; }
 
 header {
   grid-area: header;
@@ -89,8 +90,8 @@ footer {
   margin-left: 20px; }
 
 .imagen {
-  width: 50px;
-  height: 500px; }
+  height: auto;
+  max-width: 100%; }
 
 /* Pagina de nosotros */
 .nosotros {

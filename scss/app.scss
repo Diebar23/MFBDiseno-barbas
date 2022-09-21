@@ -29,7 +29,8 @@ $redes:(
     width: $width;  
 }
 .imagen {
-    @include sizes(50px,500px);
+    @include sizes (80%, 80%); 
+    max-width: 100%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap') ;
