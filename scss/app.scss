@@ -12,18 +12,8 @@ $redes:(
 @each $red, $color in $redes {
     .btn--#{$red}{
         background-color: $color
-    }   
-}
-.btn--instagram {
-    background-color: #fff;
-}
-.btn--facebook {
-    background-color: #fff;
 }   
-.btn--linkedin {
-    background-color: #fff;
 }
-
 @mixin sizes($width,$height) {
     height: $height;
     width: $width;  

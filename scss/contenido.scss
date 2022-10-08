@@ -1,5 +1,12 @@
 
 
+.img-thumbnail{
+    align-items: center;   
+    padding: 20px 20px;
+    height: auto;
+    width: 400px
+}
+
 .carousel {
     @include sizes (auto, auto); 
     padding: 80px;
@@ -25,10 +32,8 @@
     font-weight: bold;
     font-family: 'roboto';
     margin-left: 20px;
+}
+ 
 
-}
-.contenido{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 20px;
-}
+
+
