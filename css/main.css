@@ -29,19 +29,26 @@ header {
     header .marca:hover {
       color: #3066BE;
       transition: all 0.4s ease; }
-  header a.nav-link {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    color: #7A3B69;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'roboto'; }
-    header a.nav-link:hover {
-      color: #3066BE;
-      transition: all 0.4s ease; }
-  header ul {
-    list-style-type: none; }
+
+a.nav-link {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin: 0 15px 0 0;
+  text-decoration: none;
+  color: #7A3B69;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'roboto'; }
+  a.nav-link:hover {
+    color: #3066BE;
+    transition: all 0.4s ease; }
+
+.navbar {
+  float: right; }
+
+ul {
+  list-style-type: none; }
 
 footer {
   grid-area: footer;

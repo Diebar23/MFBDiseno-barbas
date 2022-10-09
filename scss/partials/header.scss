@@ -17,9 +17,13 @@ header{
      transition: all 0.4s ease;
     }
 }
+
+}
 a.nav-link{
     display: flex;
     flex-direction: row;
+    float: right;
+    margin: 0 15px 0 0;
     text-decoration: none;   
     color: #7A3B69;
     font-size: 20px;
@@ -29,9 +33,12 @@ a.nav-link{
     color: $hover-colour;
      transition: all 0.4s ease;
     }
+
+}
+.navbar{
+    float: right;
 }
 
 ul{
     list-style-type: none;
-}
 }
