@@ -1,17 +1,23 @@
 
-.img-thumbnail{
+.imagen{
     align-items: center;   
     padding: 20px 20px;
+    margin: 10px 10px;
     height: auto;
-    width: 400px
+    width: 320px
 
 }
+.sombra{
+    box-shadow: 2px 2px 3px grey
+}
+
 .zoom{
     transition: transform .2s
 }
 .zoom:hover{
     transform: scale(1.8)
 }
+
 .carousel {
     @include sizes (auto, auto); 
     padding: 80px;
@@ -21,6 +27,12 @@
 .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: invert(100%);
 
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around ;
+    margin: 10%;
+    padding: 20px;
 }
 
 
@@ -35,6 +47,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
     
+
 }
 .frase{
     grid-area: frase;
